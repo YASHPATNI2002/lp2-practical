@@ -9,6 +9,7 @@ while(start <= end):
     mid = (start+end)//2
     if(arr[mid] == target):
         print("Element found at index ", mid)
+        break
     elif(arr[mid] > target):
         end = mid - 1
     else:
